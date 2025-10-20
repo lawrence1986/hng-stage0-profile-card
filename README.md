@@ -20,18 +20,11 @@ It demonstrates semantic, accessible, and responsive web design using plain HTML
 ✅ Keyboard navigation for links
 ✅ Avatar photo included
 ✅ Contact Us Page
-All required fields exist and use correct data-testids.
-✅Validation prevents invalid submissions.
-✅Success message only shows after valid submission.
-✅About Me Page
-All required sections exist with correct data-testids.
-Semantic HTML used (main, section, ul, p, h2).
-General
-Semantic HTML throughout.
-Accessible (labels, alt text, ARIA associations).
-Fully responsive across mobile, tablet, desktop.
-Keyboard navigable.
-Code is modular, readable, and consistent.
+✅ Validation prevents invalid submissions.
+✅ Success message only shows after valid submission.
+✅ About Me Page
+
+
 
 🧑🏽‍💻 Developer Info
 
