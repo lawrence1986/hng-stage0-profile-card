@@ -44,9 +44,8 @@ Vanilla JavaScript
 
 🚀 Live Demo
 
-🔗 Live URL: https://your-netlify-link.netlify.app
 
-🔗 GitHub Repo: https://github.com/yourusername/hng-stage0-profile-card
+🔗 GitHub Repo: [https://github.com/yourusername/hng-stage0-profile-card](https://lawrence1986.github.io/hng-stage0-profile-card/)
 
 Replace the above URLs with your actual hosted and repository links before submission.
 
