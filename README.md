@@ -1,9 +1,13 @@
-# hng-stage0-profile-card
+# hng-stage1-profile-card
+
+Added to existing repo.
+
+
 
 🎯 HNG Stage 0 — Profile Card Task
 👋 Introduction
 
-This project is a Profile Card Component built as part of Stage 0 of the HNG Learn Program.
+This project is a Profile Card Component built as part of Stage 0 & 1 of the HNG Learn Program.
 It demonstrates semantic, accessible, and responsive web design using plain HTML, CSS, and Vanilla JavaScript — no frameworks.
 
 🧱 Features
@@ -15,6 +19,19 @@ It demonstrates semantic, accessible, and responsive web design using plain HTML
 ✅ All required data-testid attributes included
 ✅ Keyboard navigation for links
 ✅ Avatar photo included
+✅ Contact Us Page
+All required fields exist and use correct data-testids.
+✅Validation prevents invalid submissions.
+✅Success message only shows after valid submission.
+✅About Me Page
+All required sections exist with correct data-testids.
+Semantic HTML used (main, section, ul, p, h2).
+General
+Semantic HTML throughout.
+Accessible (labels, alt text, ARIA associations).
+Fully responsive across mobile, tablet, desktop.
+Keyboard navigable.
+Code is modular, readable, and consistent.
 
 🧑🏽‍💻 Developer Info
 
