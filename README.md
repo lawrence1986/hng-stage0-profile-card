@@ -12,7 +12,7 @@ It demonstrates semantic, accessible, and responsive web design using plain HTML
 
 🧱 Features
 
-✅ Semantic HTML5 elements (<article>, <header>, <figure>, <nav>, <section>)
+✅ Semantic HTML5 elements
 ✅ Accessible markup (alt text, focusable links, ARIA labels)
 ✅ Responsive design for mobile, tablet, and desktop
 ✅ Current time displayed dynamically in milliseconds (Date.now())
