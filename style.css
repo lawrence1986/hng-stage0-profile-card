@@ -1,143 +1,82 @@
-/* --- Your existing styles remain unchanged above this line --- */
-
-/* ===========================
-   PROFILE CARD ENHANCEMENTS
-   =========================== */
-
-.profile-card {
-  background: var(--card);
-  color: var(--text);
-  width: 360px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-  overflow: hidden;
-  text-align: center;
-  padding: 1.5rem;
-  position: relative;
-  margin: 40px auto;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+* {
+  box-sizing: border-box;
 }
 
-/* Reuse your .card-menu (already defined), only adjust spacing */
-.profile-card .card-menu {
-  background: linear-gradient(180deg, #153626 0%, #0f271c 100%);
-  border-radius: 12px 12px 0 0;
-  padding: 0.5rem 0;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-
-.profile-card .card-menu ul {
-  list-style: none;
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
 }
 
-.profile-card .card-menu a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.95rem;
-  transition: color 0.3s ease;
+.profile-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
 }
 
-.profile-card .card-menu a:hover,
-.profile-card .card-menu a.active {
-  color: var(--primary);
-}
-
-/* Avatar section (centered) */
-.avatar-section {
-  text-align: center;
-  margin-top: 1rem;
+.profile-card:hover {
+  transform: translateY(-5px);
 }
 
 .avatar-section img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid var(--primary);
-  box-shadow: 0 0 10px rgba(121, 192, 141, 0.4);
+  width: 100%;
+  height: auto;
+  border-bottom: 4px solid #ffa111;
 }
 
-/* Profile content */
 .profile-content {
-  margin-top: 1.2rem;
-  text-align: center;
+  padding: 1.5rem;
 }
 
-.profile-content h2 {
-  font-size: 1.4rem;
-  color: var(--primary);
-  margin-bottom: 0.5rem;
+h2 {
+  margin-top: 0;
+  color: #333;
 }
 
-.profile-content p {
-  color: var(--muted);
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-
-/* Social links styling */
 .social-links {
   display: flex;
-  justify-content: center;
-  gap: 12px;
-  list-style: none;
-  margin: 1rem 0;
+  gap: 1rem;
   padding: 0;
+  list-style: none;
 }
 
 .social-links a {
-  color: var(--primary);
   text-decoration: none;
+  color: #ffa111;
   font-weight: 600;
-  transition: opacity 0.3s ease, color 0.3s ease;
 }
 
+.social-links a:focus,
 .social-links a:hover {
-  opacity: 0.8;
-  color: var(--accent-brown-2);
-}
-
-/* Sections: hobbies and dislikes */
-section h3 {
-  font-size: 1rem;
-  margin-top: 1rem;
-  color: var(--primary);
   text-decoration: underline;
 }
 
-section ul {
-  list-style: none;
-  margin-top: 0.5rem;
-  padding: 0;
+section {
+  margin-top: 1rem;
 }
 
-section ul li {
-  font-size: 0.9rem;
-  color: var(--muted);
-  margin-bottom: 0.3rem;
-}
-
-/* Add a nice responsive touch */
-@media (max-width: 420px) {
+@media (min-width: 600px) {
   .profile-card {
-    width: 90%;
-    padding: 1rem;
-  }
-
-  .profile-card .card-menu ul {
-    gap: 1rem;
+    flex-direction: row;
   }
 
   .avatar-section img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .profile-content {
+    flex: 1;
   }
 }
